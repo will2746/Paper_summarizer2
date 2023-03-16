@@ -5,3 +5,4 @@ stdlogging
 openai
 streamlit
 PyPDF2
+streamlit-option-menu
