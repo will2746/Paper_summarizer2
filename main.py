@@ -53,8 +53,7 @@ def create_text(text_content):
         document_text = text1+text2
     else:
         document_text = text_content
-    #openai.api_key = st.secrets["API_KEY"]
-    openai.api_key = "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"
+    openai.api_key = st.secrets["API_KEY"]
     prompt = [
         {"role": "system",
          "content": "You are gathering information from an an academic research papaer for a college level student. Include a 2 sentence response to each of the followiung headers: Summary, Findings, Research Gaps, Importance, Methodolgy"},
