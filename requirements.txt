@@ -2,3 +2,6 @@ add_parent_path
 kanilog
 pytest
 stdlogging
+openai
+streamlit
+PyPDF2
